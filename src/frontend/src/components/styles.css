@@ -1,0 +1,21 @@
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 25vh;
+    width: 600px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.scroll-box {
+    height: 60vh;
+    overflow-y: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
